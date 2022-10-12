@@ -125,7 +125,7 @@ int main() {
 
         glBindVertexArray(VAO2);
         glUseProgram(program2);
-        glDrawArrays(GL_TRIANGLES, 0,π 3);
+        glDrawArrays(GL_TRIANGLES, 0, 3);
 
         glfwSwapBuffers(window);
         glfwPollEvents();
